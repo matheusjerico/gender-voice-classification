@@ -589,12 +589,12 @@ Female: 50.0%.
 
 ---
 
-#### 4.7. Correlação entre as variáveis
+#### 4.8. Correlação entre as variáveis
 ![](imagens/output_34_0.png)
 
 ---
 
-#### 4.8. Feature Importance
+#### 4.9. Feature Importance
 
 Para analisar as features mais relevantes para problema de reconhecimento de voz, utilizamos dois algoritmos do método Ensemble. 
 
