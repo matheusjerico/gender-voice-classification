@@ -4,7 +4,7 @@
 **LinkedIn**: https://linkedin.com/in/matheusjerico
 
 ### Dataset - Gender Recognition by Voice
-**Link**:<br> https://www.kaggle.com/mlg-ulb/creditcardfraud
+**Link**:<br> https://www.kaggle.com/primaryobjects/voicegender
 
 **Contexto**: <br>
 Esse dataset foi criado com objetivo de identificar uma voz como masculina ou feminina, com base nas propriedades acústicas da voz e da fala. O Dataset consistem em 3168 registros de vozes, coletadas de falantes masculinos e femininos. As amostras de voz são pré-processadas por análise acústica em R usando os pacotes seewave e tuneR, com uma faixa de frequência analisada de 0hz-280hz (faixa vocal humana).
@@ -1677,7 +1677,7 @@ print(f"Métrica ROC AUC:\n\
 
 
 **ANÁLISE**:
-- Os quatro algoritmos tiverem resultados muito próximo.
+- Os quatro algoritmos tiverem resultados muito semelhantes.
 - Dessa forma, não podemos selecionar nenhum algoritmo utilizando métrica ROC AUC.
 
 ### 7.2. Precision
@@ -1699,7 +1699,7 @@ print(f"Métrica Precisão (Precision):\n\
 
 
 **ANÁLISE**:
-- Os quatro algoritmos tiveram resultados muito próximos.
+- Os quatro algoritmos tiveram resultados muito semelhantes.
 
 ### 7.3. Recall
 
@@ -1720,7 +1720,7 @@ print(f"Métrica Revocação (Recall):\n\
 
 
 **ANÁLISE**:
-- Os quatro algorítmos tiveram resultados muito próximos
+- Os quatro algorítmos tiveram resultados muito semelhantes.
 
 ### 7.4. F1-Score
 
@@ -1741,7 +1741,7 @@ print(f"Métrica F1-Score:\n\
 
 
 **ANÁLISE**:
-- Os quatro algoritmos tiveram resultados muito próximos
+- Os quatro algoritmos tiveram resultados muito semelhantes
 
 ### 7.5. Accuracy
 
@@ -1789,6 +1789,6 @@ ax.set_xlabel('Classe Predita', fontsize=15)
 
 **ANÁLISE**:
 
-- A comparação dos resultados dos algorítmos são muito próximos. Podemos concluir que esse é um problema relativamente fácil de resolver. As vozes masculinas e femininas possuem características muito distintas.
+- A comparação das métricas dos algorítmos são muito semelhantes. Podemos concluir que esse é um problema relativamente fácil de resolver. As vozes masculinas e femininas possuem características muito distintas.
 - O SVM obteve a melhor performace utilizando a métrica de Acurácia (devido ao fato do dataset ser balanceado e pré processado).
-- Entretanto, os algorítmos do método ensamble ficaram com valores muito próximos ao do SVM
+- Entretanto, as métricas dos algorítmos do método ensamble ficaram próximos ao do SVM.
